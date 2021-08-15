@@ -1,4 +1,4 @@
 # Landing_page
-Landing de venta responsive:
+Landing Page con responsive web design, utilizando html5 y css3.
 https://ricardoggz.github.io/Landing_page/
 
