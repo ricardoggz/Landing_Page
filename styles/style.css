@@ -1,0 +1,204 @@
+/*----Estilos generales----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*----HEADER*/
+
+.menu{
+    background: #060B0D;
+    width: 100%;
+    height: auto;
+    padding:15px 0;
+    text-align: right;
+    position: fixed;
+    color:#e5e6eb;
+}
+.menu a{
+    text-decoration: none;
+    color:#e5e6eb;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu a:hover{
+    color:#c7c7c7;
+}
+.botonMenu{
+    text-align: left;
+    display: none;
+}
+.menu-toggle{
+    display: none;
+}
+
+
+/*----JUMBOTRON*/
+
+.jumbotron{
+    background: url(../img/jumbotron1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#e5e6eb;
+}
+.jumbotron h1{
+    font-size: 60px;
+    padding-top: 40px;
+}
+.jumbotron p{
+    font-size:25px;
+    padding:40px 0 10px 0;
+}
+.jumbotron a{
+    background:linear-gradient(#767c96,#a896a4);
+    color: #fff;
+    font-size:15px;
+    font-weight:500;
+    text-decoration: none;
+    margin-top: 30px;
+    padding:15px;
+    border: 2px;
+    border-radius:8px;
+}
+
+
+
+/*----BLOG----*/
+
+.galery{
+    background: #c7c7c7;
+    color:#060B0D;
+    padding:40px;
+}
+.galery h1{
+    text-align: center;
+}
+.blog{
+    width: 100%;
+    display:flex;
+    padding:20px; 
+}
+.blog h2{
+    padding:15px 0;
+}
+.blog a{
+    color:#18191b;
+    text-decoration: none;
+}
+.blog a:hover{
+    color:#242527;
+}
+.blog ul li{
+    list-style: none;
+}
+.blog .column{
+    width:100%;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    background: #e5e6eb;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.205);
+    color:#18191b;
+}
+.blog img{
+    width: 100%; 
+    height:200px; 
+    object-fit: cover; 
+    padding: 0 6px; 
+    border-radius:8px;
+}
+
+
+/*----Contact----*/
+
+.contact{
+    background:url(../img/jumbotron2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #e5e6eb;
+    padding: 80px;
+}
+.contact h1{
+    text-align: center;
+    padding:20px;
+}
+.contact form{
+    background:#060B0D;
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius:8px;
+}
+.contact input,textarea{
+    padding:10px;
+    margin-top:20px;
+    width: 400px;
+    height: 80px;
+    border-radius: 8px;
+}
+.message{
+    height: 120px;
+}
+.contact .boton{
+    background:#1273eb;
+    color:#fff;
+    width: 100px;
+    font-size: 20px;
+    margin:20px 0;
+    border-radius: 8px;
+}
+
+
+/*----footer----*/
+
+.footer{
+    background:#060B0D;
+    color: #e5e6eb;
+}
+.footer2{
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    justify-content:space-evenly;
+}
+.footer2 ul li{
+    list-style: none;
+}
+.footer2 a{
+    text-decoration: none;
+    color: #e5e6eb;
+    font-size: 12px;
+}
+.footer a:hover{
+    color:#c7c7c7;
+}
+.footer2 h3{
+    padding:10px 0;
+}
+
+
+/*----BARRA-FOOTER*/
+
+.copyright{
+    background: rgb(153, 153, 153);
+    color:#000;
+    text-align:center;
+    padding:20px 0;
+}
